@@ -11,7 +11,7 @@ if (!cached){
 
 async function connectDB() {
     if( cached.conn){
-        retunr cached.conn
+        return cached.conn
     }
     
     if(!cached.Promise){
